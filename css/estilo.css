@@ -73,11 +73,12 @@ button:hover {
   background-color: #0b0b0ba4;
   /* Cambia el color del botón al pasar el cursor */
 }
+/*Cambiando el color de las teclas especiales */
 .key_esp, #btn_igual{
   background-color: orange;
   
 }
-
+/*Cambiando el color de las teclas especiales cuando se este encima */
 #btn_igual, .key_esp:hover{
   background-color: rgb(255, 182, 47);
 }
