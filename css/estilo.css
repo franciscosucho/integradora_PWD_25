@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  font-family: Arial, sans-serif;
+  background-color: rgb(51, 51, 51);
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  padding-top: 10%;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(196, 196, 196);
+  /* Cambia el color del texto */
+}
+
+.calculator {
+  margin-top: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.display {
+  margin-bottom: 10px;
+  background-color: #b7b6b65d;
+  border-radius: 4px;
+}
+
+.display input {
+  width: 100%;
+  padding: 10px;
+  font-size: 2em;
+  text-align: right;
+  border: none;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 1.2em;
+  /* Cambia el tamaño de la fuente */
+  color: #fff;
+  background-color: #000000d2;
+  /* Cambia el color del botón */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+button:hover {
+  background-color: #0b0b0ba4;
+  /* Cambia el color del botón al pasar el cursor */
+}
+.key_esp, #btn_igual{
+  background-color: orange;
+  
+}
+
+#btn_igual, .key_esp:hover{
+  background-color: rgb(255, 182, 47);
+}
+button:active {
+  transform: translateY(2px);
+  /* Añade efecto al presionar */
+}
+
+/*# sourceMappingURL=estilo.css.map */

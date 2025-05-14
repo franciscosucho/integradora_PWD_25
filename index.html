@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculadora básica</title>
+    <!-- A) Vinculación a CSS -->
+    <link rel="stylesheet" href="/css/estilo.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculadora básica</h1>
+        <div class="calculator">
+            <div class="display">
+                <input type="text" id="result" disabled>
+            </div>
+            <div class="buttons">
+               
+                <button onclick="calculate('Math.sqrt')" class="key_esp">√</button>
+                <button onclick="calculate('**2')" class="key_esp">x²</button>
+                <button onclick="calculate('**3')" class="key_esp">x³</button>
+                <button onclick="calculate('Math.sin')" class="key_esp">sin</button>
+                <button onclick="calculate('Math.cos')" class="key_esp">cos</button>
+                <button onclick="calculate('Math.tan')" class="key_esp">tan</button>
+                <button onclick="calculate('Math.log')" class="key_esp">log</button>
+                <button onclick="calculate('%')" >%</button> 
+                <button onclick="calculate('7')">7</button>
+                <button onclick="calculate('8')">8</button>
+                <button onclick="calculate('9')">9</button>
+                <button onclick="calculate('/')">/</button>
+                <button onclick="calculate('4')">4</button>
+                <button onclick="calculate('5')">5</button>
+                <button onclick="calculate('6')">6</button>
+                <button onclick="calculate('*')">*</button>
+                <button onclick="calculate('1')">1</button>
+                <button onclick="calculate('2')">2</button>
+                <button onclick="calculate('3')">3</button>
+                <button onclick="calculate('-')">-</button>
+                <button onclick="calculate('0')">0</button>
+                <button onclick="calculate('.')">.</button>
+                <button onclick="calculate('+')">+</button>
+                <button onclick="calculate('clear')">C</button>
+                <button onclick="calculate('calculate')" id="btn_igual">=</button>
+            </div>
+        </div>
+    </div>
+    <!-- D) Ver qué código falta para completar el funcionamiento según el código observado -->
+    <script src="index.js"></script>
+</body>
+
+</html>
