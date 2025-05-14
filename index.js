@@ -66,6 +66,12 @@ function calculate(value) {
         } catch (error) {
             result.value = 'Error'; // Maneja errores
         }
+    }else if (value === 'Math.E') {
+        try {
+            result.value = Math.E; //realiza la operacion de logaritmo
+        } catch (error) {
+            result.value = 'Error'; // Maneja errores
+        }
     }
     else if (value === '**2') {
         try {
